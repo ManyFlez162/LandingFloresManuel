@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.index-body h2 {
+    text-align: center;
+    color: #444;
+}
+
+.index-body p {
+    text-align: center;
+}
+
+.hobbies-body h2 {
+    color: #444;
+    text-align: center;
+}
+
+.hobbies-body p {
+    margin-bottom: 20px;
+}
+
+.hobbies-body img {
+    border: 2px solid #333;
+}
+
+.favoritos-body h1, .favoritos-body h2 {
+    text-align: center;
+    color: #444;
+}
+
+.favoritos-body img {
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.contacto-body p {
+    text-align: center;
+}
+
+.contacto-body a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contacto-body a:hover {
+    text-decoration: underline;
+}
